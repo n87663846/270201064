@@ -1,0 +1,11 @@
+name = input("Please enter your name: ")
+name = name.upper()
+for i in name:
+  print(i)
+  full_text = ""
+while True:
+  typing = input("Please enter any string ('quit' to quit)" )
+  if typing == "quit":
+    break
+  full_text = full_text + typing
+print(full_text)
