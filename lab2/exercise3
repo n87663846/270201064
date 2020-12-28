@@ -1,0 +1,8 @@
+a = 2
+b = 6 
+c = -20
+numerator1 = -b + (b**2 - 4 * a * c) ** 0.5
+numerator2 = -b - (b**2 - 4 * a * c) ** 0.5
+denominator = 2 ** abs(a)
+root1 = numerator1 / denominator
+root2 = numerator2 / denominator
