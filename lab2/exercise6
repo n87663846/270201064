@@ -1,0 +1,7 @@
+car1 = 80
+car2 = 70
+initial_distance = 490
+final_distance = 150
+time = (initial_distance - final_distance) / (car1 + car2)
+minutes = time * 60
+print(minutes, "minutes")
