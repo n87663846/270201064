@@ -1,0 +1,5 @@
+edge1 = float(input("Enter the length of the one edge:"))
+edge2 = float(input("Enter the length of the other edge"))
+
+hypotenuse = (edge1 ** 2 + edge2 ** 2) ** 0.5
+print("Hypotenuse is", hypotenuse)
