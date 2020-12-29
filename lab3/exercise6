@@ -1,0 +1,22 @@
+a = int(input("Enter first parameter: "))
+b = int(input("Enter second parameter: "))
+c = int(input("Enter the constant number: "))
+
+if a != 0:
+  numerator1 = -b + (b ** 2 - 4 * a * c) ** 0.5
+  denominator1 = 2 * abs(a)
+  numerator2 = -b - (b ** 2 - 4 * a * c) ** 0.5
+  denominator2 = denominator1
+
+  root1 = numerator1 / denominator1
+  root2 = numerator2 / denominator2
+
+  discriminant = b ** 2 - 4 * a * c
+  if discriminant > 0:
+    print("First root of the function is",root1,"the second root is",root2)
+  elif discriminant == 0:
+    print("The root is", root1)
+  else:
+    print("There is no root in real numbers")
+else:
+  print("Please enter a valid quadratic equation!")
