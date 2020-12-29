@@ -1,0 +1,27 @@
+day = int(input("Enter date of the day: "))
+month = int(input("Enter date of the month: "))
+if day <= 31:
+  if month <= 3:
+    if month == 3 and day >= 20:
+      print("The season is spring")
+    else: 
+      print("The season is winter")
+  elif month <= 6:
+    if month == 6 and day >= 21:
+      print("The season is summer")
+    else: 
+      print("The season is spring")
+  elif month <= 9:
+    if month == 9 and day >= 22:
+      print("The season is fall")
+    else:
+      print("The season is summer")
+  elif month <= 12:
+    if month == 12 and day >= 21:
+      print("The season is winter")
+    else: 
+      print("The season is fall")
+  else:
+    print("There are only 12 months and 31 days. Please enter valid information!")
+else:
+  print("There are only 12 months and 31 days. Please enter valid information!")
