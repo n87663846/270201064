@@ -1,0 +1,8 @@
+age = int(input("Enter your age: "))
+ticket_prize = 3
+discount = 0.5
+if age < 6 or age > 60:
+  ticket_prize = 0
+elif age >= 6 and age < 18:
+  ticket_prize = ticket_prize * (1 - discount)
+print("prize of the ticket is", ticket_prize , "TL")
