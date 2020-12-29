@@ -1,0 +1,9 @@
+a = float(input("Enter the first number:"))
+b = float(input("Enter the second number:"))
+c = float(input("Enter the third number:"))
+min = a
+if b < min:
+  min = b
+if c < min:
+  min = c
+print("The minimum number is", min)
