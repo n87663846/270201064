@@ -1,0 +1,12 @@
+lecture = int(input("Enter the number of lectures: "))
+gpa = float(input("Enter your GPA: "))
+
+if gpa >= 2:
+  if lecture >= 47:
+    print("GRADUATED!!!")
+  else:
+    print("Not enough number of lecutures!")
+elif lecture >= 47:
+  print("Not enough GPA!")
+else:
+  print("Not enough number of lectures and GPA!")
