@@ -1,7 +1,0 @@
-speed_of_first_car=80
-speed_of_second_car=70
-distance =490
-final_distance = 150
-hours = (distance - final_distance) / (speed_of_first_car + speed_of_second_car)
-minute = hours*60
-print(minute)
